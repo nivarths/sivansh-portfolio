@@ -2,6 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll"
 import { ExternalLink, Github } from 'lucide-react';
 import recordPlayerImg from '../../images/IMG_2897.jpg';
 import gpsAntennaImg from '../../images/IMG_2797.jpeg';
+import spaceInvadersPNG from '../../images/space-invaders.png';
 
 
 export const Projects = () => {
@@ -95,7 +96,7 @@ export const Projects = () => {
                     </div>
                     
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px-rgba(59, 130, 246, 0.2)] transition">
-                        <img src="https://private-user-images.githubusercontent.com/180479574/438336114-d2a6c9a5-17c9-4010-877c-36a088988269.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc2ODUyODEsIm5iZiI6MTc0NzY4NDk4MSwicGF0aCI6Ii8xODA0Nzk1NzQvNDM4MzM2MTE0LWQyYTZjOWE1LTE3YzktNDAxMC04NzdjLTM2YTA4ODk4ODI2OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOVQyMDAzMDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NmVkYjZiNTdkMDE3ODNkZGUxOGM0NGE0N2VkNzBmMjlhODJlODczNWY0OGViOTY4MjkwMmQ4NTg5ZDVlMmVjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.03u5PFxMX9eutEXLozZzHCYbdGuF_53xYyVUxIkl5Y8" alt="Space-Invaders" className="rounded-lg mb-4 w-full h-64 object-contain bg-black"/>
+                        <img src={spaceInvadersPNG} alt="Space-Invaders" className="rounded-lg mb-4 w-full h-64 object-contain bg-black"/>
                         <h3 className="text-xl font-bold mb-2">Space Invaders</h3>
                         <p className="text-gray-400 mb-3">
                             A retro-style Space Invaders clone built from scratch using C++ and OOD principles and OpenGL.                
