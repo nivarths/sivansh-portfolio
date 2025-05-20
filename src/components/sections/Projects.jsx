@@ -3,6 +3,7 @@ import { ExternalLink, Github } from 'lucide-react';
 import recordPlayerImg from '../../images/IMG_2897.jpg';
 import gpsAntennaImg from '../../images/IMG_2797.jpeg';
 import spaceInvadersPNG from '../../images/space-invaders.png';
+import safeSizzlePNG from '../../images/safesizzle final prototype.png';
 
 
 export const Projects = () => {
@@ -42,7 +43,7 @@ export const Projects = () => {
                     </div>
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px-rgba(59, 130, 246, 0.2)] transition">
-                        <img src="https://github.com/nivarths/Safe-Sizzle/blob/main/safesizzle%20final%20prototype.png?raw=true" alt="SafeSizzle" className="rounded-lg mb-4 w-full h-64 object-contain bg-black"/>
+                        <img src={safeSizzlePNG} alt="SafeSizzle" className="rounded-lg mb-4 w-full h-64 object-contain bg-black"/>
                         <h3 className="text-xl font-bold mb-2">SafeSizzle</h3>
                         <p className="text-gray-400 mb-3">
                             IBEHS 1P10 Design Project that utilizes a Raspberry Pi to integrate a gas sensor for detecting hazardous gases, triggering automatic knob rotation to the off position.
