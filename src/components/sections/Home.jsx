@@ -1,5 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll"
 import profileImg from '../../images/IMG_5798.jpeg';
+import { Github, Linkedin, Mail } from "lucide-react";
 
 
 export const Home = () => {
@@ -19,6 +20,36 @@ export const Home = () => {
                 <div className="flex justify-center space-x-4">
                     <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">View Projects</a>
                     <a href="#contact" className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">Contact Me</a>
+                </div>
+
+                <div className="flex justify-center gap-8 pt-7">
+                    <a
+                    href="https://www.linkedin.com/in/sivansh-nivarthi/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn Profile"
+                    className="text-white hover:text-blue-400 transition duration-300"
+                    >
+                    <Linkedin className="w-8 h-8 sm:w-6 sm:h-6" />
+                    </a>
+                    <a
+                    href="https://github.com/nivarths"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Github Profile"
+                    className="text-white hover:text-blue-400 transition duration-300"
+                    >
+                    <Github className="w-8 h-8 sm:w-6 sm:h-6" />
+                    </a>
+                    <a
+                    href="mailto:nivarths@mcmaster.ca"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Send me an email"
+                    className="text-white hover:text-blue-400 transition duration-300"
+                    >
+                    <Mail className="w-8 h-8 sm:w-6 sm:h-6" />
+                    </a>
                 </div>
             </div>
         </RevealOnScroll>
