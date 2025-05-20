@@ -20,3 +20,5 @@ This is my personal portfolio website, built to showcase my projects, technical 
 ## 🌐 Live Site
 
 > [https://nivarths.github.io/sivansh-portfolio/](https://nivarths.github.io/sivansh-portfolio/)
+> ![Screenshot 2025-05-20 173900](https://github.com/user-attachments/assets/def09655-468a-479c-8f4d-245a34e96248)
+
