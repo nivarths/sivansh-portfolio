@@ -4,7 +4,7 @@ export const About = () => {
 
     const programmingSkills = ["C/C++", "Python", "Java", "HTML5", "CSS3", "JavaScript", "MATLAB", "Bash"];
     const embeddedSystemsSkills = ["Raspberry Pi", "Arduino","Analog Discovery 3", "PCB Assembly", "SPI communication", "RFID Systems"];
-    const softwareTools = ["Git", "Visual Studio", "Microsoft Office", "PSpice", "Autodesk Inventor", "Linux", "React.js", "Tailwind CSS", "Vite"];
+    const softwareTools = ["Git", "Visual Studio", "Microsoft Office", "PSpice", "AutoCAD", "Revit", "Linux", "React.js", "Tailwind CSS", "Vite"];
     const electronicTools = ["Oscilloscope", "Signal Generator", "Multimeter", "Logic Analyzer", "Soldering"]
 
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
