@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import logo from '../assets/portfolio-logo-2.svg'
+
 
 export const Navbar = ({menuOpen, setMenuOpen}) => {
     useEffect(() => {
